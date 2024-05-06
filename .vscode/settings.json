@@ -1,0 +1,22 @@
+{
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.stylelint": "explicit"
+  },
+  "[markdown]": {
+    "editor.quickSuggestions": {
+      "other": "on",
+      "strings": "on",
+      "comments": "on"
+    }
+  },
+  "css.validate": false,
+  "less.validate": false,
+  "stylelint.enable": true,
+  "stylelint.validate": ["css", "vue", "less", "postcss"],
+  "cSpell.ignoreWords": ["preinstall", "vitepress", "fontsource"]
+}

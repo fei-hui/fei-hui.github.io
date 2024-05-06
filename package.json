@@ -1,0 +1,56 @@
+{
+  "name": "feihui-blog",
+  "type": "module",
+  "author": "fei-hui <feihui.me@foxmail.com>",
+  "version": "1.0.0",
+  "description": "Fei-hui's blog",
+  "scripts": {
+    "start": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview",
+    "commit": "git-cz",
+    "prepare": "husky",
+    "preinstall": "npx only-allow pnpm",
+    "lint:style": "stylelint .vitepress/**/*.{css,less,vue} --fix"
+  },
+  "packageManager": "pnpm@9.0.1",
+  "dependencies": {
+    "@fontsource/noto-serif-sc": "^5.0.11",
+    "dayjs": "^1.11.10",
+    "naive-ui": "^2.38.1",
+    "vue": "^3.4.20"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.21",
+    "cz-conventional-changelog": "^3.3.0",
+    "glob": "^10.3.10",
+    "gray-matter": "^4.0.3",
+    "husky": "^9.0.11",
+    "less": "^4.2.0",
+    "lint-staged": "^15.2.2",
+    "markdown-it-mathjax3": "^4.3.2",
+    "pnpm": "^9.0.1",
+    "postcss-html": "^1.6.0",
+    "postcss-less": "^6.0.0",
+    "prettier": "^3.2.5",
+    "stylelint": "^16.2.1",
+    "stylelint-config-html": "^1.1.0",
+    "stylelint-config-standard": "^36.0.0",
+    "stylelint-order": "^6.0.4",
+    "typescript": "^5.3.3",
+    "vitepress": "1.1.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "lint-staged": {
+    "*.{css,less,vue}": [
+      "stylelint .vitepress/**/*.{css,less,vue} --fix"
+    ],
+    "*.{css,less,vue,js,ts,json}": [
+      "prettier --write"
+    ]
+  }
+}

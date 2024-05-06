@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "jsx": "preserve",
+    "lib": ["esnext", "dom", "dom.iterable"],
+    "strict": true,
+    "module": "esnext",
+    "target": "esnext",
+    "baseUrl": ".",
+    "skipLibCheck": true,
+    "noUnusedLocals": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "verbatimModuleSyntax": true
+  },
+  "exclude": ["**/dist/**", "**/node_modules/**"]
+}

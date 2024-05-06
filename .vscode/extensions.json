@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "vue.volar",
+    "eamodio.gitlens",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "editorconfig.editorconfig",
+    "stylelint.vscode-stylelint",
+    "yzhang.markdown-all-in-one",
+    "github.vscode-github-actions"
+  ]
+}
