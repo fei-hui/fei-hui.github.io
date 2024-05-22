@@ -102,6 +102,7 @@
 
       h4 {
         margin-top: 16px;
+        font-size: 18px;
       }
 
       p {

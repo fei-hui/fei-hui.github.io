@@ -348,7 +348,7 @@ fn main() {
 }
 ```
 
-Rust 为了高效率的执行并没有对自定义类型做特征处理，因此在控制台格式化输出打印枚举类型时，需要在枚举定义的前面添加 `#[derive(Debug)]` 语句，该语句可以自动为枚举实现 `Debug` 特质；除此之外，也可以自行基于 `std::fmt::Debug` 或 `std::fmt::Debug` 特征实现相关的格式化输出逻辑。
+Rust 为了高效率的执行并没有对自定义类型做特征处理，因此在控制台格式化输出打印枚举类型时，需要在枚举定义的前面添加 `#[derive(Debug)]` 语句，该语句可以自动为枚举实现 `Debug` 特质；除此之外，也可以自行基于 `std::fmt::Display` 或 `std::fmt::Debug` 特征实现相关的格式化输出逻辑。
 
 ```rs
 use std::fmt;
@@ -361,7 +361,7 @@ enum MouseEvent {
   Click { x: i32, y: i32 }, // 结构体类型的传参方式
 }
 
-// 在 Rust 打印非原生类型的值到控制台，可能需要基于 `std::fmt::Debug` 或 `std::fmt::Debug` 实现输出
+// 在 Rust 打印非原生类型的值到控制台，可能需要基于 `std::fmt::Display` 或 `std::fmt::Debug` 实现输出
 // 此处基于 `std::fmt::Debug` 实现自定义的输出控制，在句柄中可以使用 `println!("{:?}", MouseEvent::xxx)` 的枚举项
 // 更简单更直接的方法是通过在 MouseEvent 枚举定义之前添加 #[derive(Debug)] ，自动为 MouseEvent 枚举实现 Debug 特质
 impl fmt::Debug for MouseEvent {
