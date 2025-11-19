@@ -35,11 +35,25 @@ export default createDefineConfig({
     },
   },
 
-  head: [['link', { rel: 'icon', type: 'image/png', href: '/logo.png' }]],
+  head: [
+    ['link', { rel: 'icon', type: 'image/png', href: '/logo.png' }],
+    [
+      'meta',
+      {
+        name: 'google-site-verification',
+        content: 'eYzWXqI9itQXscYhdHVPNbB-TaCJBylQgTrOpAJ3l94',
+      },
+    ],
+  ],
 
   themeConfig: {
     title: '飞灰同学',
     author: 'Fei-hui',
     description: '书山有路勤为径，学海无涯苦作舟',
+  },
+
+  sitemap: {
+    hostname: 'https://fei-hui.github.io',
+    lastmodDateOnly: false,
   },
 });
