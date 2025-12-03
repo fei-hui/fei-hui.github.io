@@ -4,7 +4,7 @@ author: Fei-hui
 template: post
 keywords: Typescript, html-to-image, html2canvas, Web 网页截图
 description: 记录 html-to-image 实现截图的原理，以及使用 html-to-image 替换 html2canvas 实现页面截图的步骤和踩坑记录
-date: 2023/07/14
+date: 2023/07/14 14:14
 ---
 
 手头有个 C 端旧项目使用 html2canvas 实现页面截图的功能，但是 html2canvas 截图慢、不支持 CSS3 的滤镜/阴影等属性、背景图模糊导致了很多的客诉。

@@ -4,7 +4,7 @@ author: Fei-hui
 template: post
 keywords: Typescript
 description: 用于记录学习 Typescript 过程中的笔记/踩坑，用以敦促自己变强
-date: 2021/03/08
+date: 2021/03/08 14:14
 ---
 
 我在 2019 年底开始学习 Typescript 的知识，学习不算很快，期间整理了许多的笔记和代码片段，花了一段时间整理成了笔记以便日后自己复习使用。

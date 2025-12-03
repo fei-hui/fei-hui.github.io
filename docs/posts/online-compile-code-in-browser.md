@@ -4,7 +4,7 @@ author: Fei-hui
 template: post
 keywords: Node.js, Typescript, 代码编译, ESBuild, Vite
 description: 记录如何基于 esbuild-wasm 实现在浏览器中编译和运行代码
-date: 2022/12/02
+date: 2022/12/02 14:14
 ---
 
 之前在折腾 [微信云函数底层实现的合理乱猜](./implementation-of-wechat-cloud-function.md) 这篇文章的时候，实现了云函数 SDK 模拟调用云函数这个功能。调试这个功能的时候，发现性能不是很理想，接口响应普遍在 10s 左右。经过相关功能的排查，主要是在服务器编译代码这块性能不佳。

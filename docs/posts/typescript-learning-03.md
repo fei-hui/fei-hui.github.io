@@ -4,7 +4,7 @@ author: Fei-hui
 template: post
 keywords: Typescript,类型操作符
 description: Typescript 类型操作符相关的学习笔记
-date: 2021/07/04
+date: 2021/07/04 14:14
 ---
 
 最近因为要解决项目里一些工具方法的类型问题，接触了一些关于类型编程（类型体操）相关的逻辑。在解决问题的过程中，发现自己对于类型操作符理解得比较笼统，因此记录以备日后温故。

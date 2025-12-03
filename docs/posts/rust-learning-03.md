@@ -4,7 +4,7 @@ author: Fei-hui
 template: post
 keywords: Rust
 description: 学习 Rust 的泛型，Trait，代码注释的相关笔记
-date: 2024/05/19
+date: 2024/05/19 11:04
 ---
 
 ### 泛型 & Trait

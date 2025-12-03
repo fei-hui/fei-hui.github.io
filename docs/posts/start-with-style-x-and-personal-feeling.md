@@ -4,7 +4,7 @@ author: Fei-hui
 template: post
 keywords: CSS, React, Vite, StyleX
 description: StyleX 是 Facebook 开源的 CSS-in-JS 框架，本文主要讨论 StyleX 的上手体验及体验后的个人感受
-date: 2023/12/24
+date: 2023/12/24 14:14
 ---
 
 StyleX 是 Facebook 开源的 CSS-in-JS 框架，整体的用法与 React Native 的 `StyleSheet.create` 方法相同，能够得到类似于 Tailwind CSS 的原子样式。

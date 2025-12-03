@@ -4,7 +4,7 @@ author: Fei-hui
 template: post
 keywords: Javascript, Typescript, 事件循环, EventLoop
 description: 记录 Javascript 的事件循环、宏任务/微任务等一些内容
-date: 2020/09/26
+date: 2020/09/26 14:14
 ---
 
 Javascript 是一门单线程的编程语言，设计为单线程的本意是为了解决多个线程同时操作同一个 DOM 节点导致的脏读取、不可重复读、幻读这几个问题而提出。

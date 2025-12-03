@@ -4,7 +4,7 @@ author: Fei-hui
 template: post
 keywords: Typescript, React, React Hooks, useSyncExternalStore
 description: 研究 React 新特性 useSyncExternalStore 的实现原理和怎么在项目中使用
-date: 2022/06/29
+date: 2022/06/29 14:14
 ---
 
 最近刷技术论坛的时候，看到有人说 React 已经发布了 18 版本，出于好奇去围观了又新增了哪些新特性，然后在这些新特性里看到 `useSyncExternalStore` 这个新的 hook 钩子。

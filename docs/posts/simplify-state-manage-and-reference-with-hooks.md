@@ -4,7 +4,7 @@ author: Fei-hui
 template: post
 keywords: Typescript, React, 状态管理, ref 引用
 description: 利用 React hooks 的封装，简化函数式组件的状态管理和 ref 引用
-date: 2022/09/22
+date: 2022/09/22 14:14
 ---
 
 ::: tip

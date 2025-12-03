@@ -4,7 +4,7 @@ author: Fei-hui
 template: post
 keywords: Typescript, Javascript, React, React Hooks, useRef, useState
 description: 结合解读 React 的源码和运行时的数据，记录一下研究 useRef 的设计思路和内部实现的过程和结论
-date: 2022/07/16
+date: 2022/07/16 14:14
 ---
 
 在我开发过的 React 项目中，`useRef` 这个钩子的使用频率非常高，但对其底层是如何实现的了解不多。正好最近在阅读 React 源码，打算结合 React 的运行时和源码，综合分析一下 `useRef` 这个钩子的设计思路和内部实现。

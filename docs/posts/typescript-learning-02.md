@@ -4,7 +4,7 @@ author: Fei-hui
 template: post
 keywords: Typescript, 函数重载, 泛型, 类型守卫, 抽象类
 description: 关于 Typescript 函数重载、泛型、类型守卫、抽象类的学习笔记
-date: 2021/05/27
+date: 2021/05/27 14:14
 ---
 
 这几个月尝试在几个比较简单的新项目里使用 Typescript 进行开发，逐渐掌握了一些基础的语法跟开发范式，但也记录了一些问题。最近一段时间整理了一些感觉比较重要的问题，加深对 Typescript 的理解。

@@ -4,7 +4,7 @@ author: Fei-hui
 template: post
 keywords: Rust, 函数, 闭包, 流程语句
 description: 学习 Rust 函数/闭包，流程语句的相关笔记
-date: 2024/03/16
+date: 2024/03/16 14:14
 ---
 
 接前文 [Rust 学习笔记 —— 变量/常量，数据类型，枚举/结构体](./rust-learning-01.md) 的基础上，继续了解和学习 Rust 关于函数/闭包、流程语句相关的知识。

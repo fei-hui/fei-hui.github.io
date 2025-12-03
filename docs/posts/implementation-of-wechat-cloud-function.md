@@ -4,7 +4,7 @@ author: Fei-hui
 template: post
 keywords: Typescript, Node.js, 微信云函数
 description: 基于对 Serverless 和微信云函数的了解，猜测微信云函数是如何在服务器运行的
-date: 2022/11/20
+date: 2022/11/20 14:14
 ---
 
 最近闲着没事折腾了一阵微信小程序的云开发，也了解了一些关于 Serverless 无服务器的相关概念，对里面云函数是如何在服务器运行这个问题产生了浓厚的兴趣。

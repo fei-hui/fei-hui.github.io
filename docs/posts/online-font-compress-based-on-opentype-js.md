@@ -4,7 +4,7 @@ author: Fei-hui
 template: post
 keywords: Typescript, opentype.js, 字体压缩, 字体切割
 description: 记录如何使用 opentype.js 按需切割压缩字体并减少字体文件大小的开发过程
-date: 2023/08/05
+date: 2023/08/05 14:14
 ---
 
 ### 背景

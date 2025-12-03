@@ -4,7 +4,7 @@ author: Fei-hui
 template: post
 keywords: Javascript, Typescript, 网络摄像头, 硬件调试
 description: 记录在 Web 页面接入调试各类的网络摄像头遇到的问题
-date: 2020/12/10
+date: 2020/12/10 14:14
 ---
 
 最近由于业务的原因，需要在 Web 页面接入调试各类的网络摄像头，遇到了很多匪夷所思的问题（ 说的就是读得出摄像头的品牌，读不出摄像头的分辨率 ），于是整理了这篇文章作为备忘录。

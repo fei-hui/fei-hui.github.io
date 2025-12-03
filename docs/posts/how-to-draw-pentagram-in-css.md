@@ -4,7 +4,7 @@ author: Fei-hui
 template: post
 keywords: CSS
 description: 如何用 CSS 画正五角星的 2 种方式：border 和 clip-path
-date: 2021/04/20
+date: 2021/04/20 14:14
 ---
 
 最近出去面试，面到了某一家主营低代码页面搭建的互联网公司，其中有道面试题是如何用 CSS 画五角星。我个人的 CSS 水平不怎么高，没有完整地回答出这个问题，于是回来查漏补缺地记录一下。

@@ -1,5 +1,5 @@
 // import scripts
-import createDefineConfig from './scripts/create-define-config';
+import { createDefineConfig } from './scripts/create-define-config';
 
 // Export `vitepress` config
 // wiki: https://vitepress.dev/reference/site-config
@@ -54,6 +54,5 @@ export default createDefineConfig({
 
   sitemap: {
     hostname: 'https://fei-hui.github.io',
-    lastmodDateOnly: false,
   },
 });
